@@ -1,0 +1,64 @@
+.App {
+    margin-bottom: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    color: white;
+}
+.navDiv{
+    position: relative;
+}
+.itemsIcon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.itemsDiv{
+    background-color: white;
+    color: black;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+.cart {
+    text-align: center;
+}
+.cartClearButton {
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+}
+.img {
+    width: 391px;
+    height: 391px;
+    margin-top: 40px;
+}
+.cartItem {
+    display: flex;
+    margin: 50px 150px;
+    justify-content: space-between;
+    border-top: 1px solid black;
+
+}
+.cartInfo {
+    text-align: right;
+}
+.cartQuantityButton{
+    border: none;
+    background-color: white;
+}
+.cartQuantity{
+    margin-right: 8px;
+}
+.cartDeleteButton {
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    margin-top: 50px;
+}
